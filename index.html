@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Ficha de RPG</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Minha Ficha de RPG</h1>
+
+  <label>Nome: <input type="text" id="nome" /></label><br/>
+  <label>Classe: <input type="text" id="classe" /></label><br/>
+  <label>Nível: <input type="number" id="nivel" value="1" /></label><br/>
+
+  <button onclick="salvarFicha()">Salvar Ficha</button>
+  <button onclick="carregarFicha()">Carregar Ficha</button>
+  <br/><br/>
+
+  <button onclick="rolarDado(20)">Rolar d20</button>
+  <p id="resultadoDado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
